@@ -1,0 +1,71 @@
+.main__container {
+  display: flex;
+  text-align: center;
+  min-height: 100vh;
+  background: rgb(185, 110, 13);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background: hsl(0deg, 0%, 0%);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.quote {
+  color: rgb(185, 110, 13);
+  width: 80%;
+  margin: 0 auto;
+}
+.quote__famous--quote {
+  font-family: "Poppins", sans-serif;
+}
+.quote__author {
+  text-align: right;
+  margin-top: 1em;
+  padding-right: 2em;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  padding: 1em 2em;
+}
+.buttons__social {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 1em;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s ease-in;
+}
+.buttons__social:hover {
+  background: rgb(185, 110, 13);
+}
+.buttons__quote {
+  margin-left: auto;
+  border-radius: 10px;
+  padding: 0.5em;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: 0.2s ease-in;
+}
+.buttons__quote:hover {
+  background: rgb(185, 110, 13);
+}/*# sourceMappingURL=style.css.map */

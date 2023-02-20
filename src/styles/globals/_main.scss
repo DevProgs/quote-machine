@@ -1,0 +1,9 @@
+@use '../util/' as u;
+
+
+.main__container {
+  display: flex;
+  text-align: center;
+  min-height: 100vh;
+  transition: 1s ease-in-out;
+}
