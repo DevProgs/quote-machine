@@ -19,15 +19,22 @@ function Quote({ quoteData, fetchQuote, randomColor }) {
         </p>
       </div>
       <div className="buttons">
-        <button
-          style={{ background: randomColor }}
-          className="buttons__social"
-        >
-          <i className="fa-brands fa-twitter fa-2x"></i>
-        </button>
-        <button style={{ background: randomColor }} className="buttons__social">
-          <i className="fa-brands fa-facebook fa-2x"></i>
-        </button>
+        <a href="http://www.twitter.com" target="_blank">
+          <button
+            style={{ background: randomColor }}
+            className="buttons__social"
+          >
+            <i className="fa-brands fa-twitter fa-2x"></i>
+          </button>
+        </a>
+        <a href="http://www.facebook.com" target="_blank">
+          <button
+            style={{ background: randomColor }}
+            className="buttons__social"
+          >
+            <i className="fa-brands fa-facebook fa-2x"></i>
+          </button>
+        </a>
         <button
           style={{ background: randomColor }}
           className="buttons__quote"
