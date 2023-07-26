@@ -71,6 +71,25 @@
   animation-fill-mode: forwards;
 }
 
+@media (max-width: 400px) {
+
+  .quote {
+    width: 100%;
+    &__famous--quote {
+      font-size: 1rem;
+    }
+    &__author {
+      font-size: .75rem;
+    }
+  }
+  .buttons {
+    padding: 1em 0;
+        &__social {
+        padding: .5em .5em;
+      }
+    }
+  }
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
